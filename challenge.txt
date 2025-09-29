@@ -1,0 +1,22 @@
+Para o Challenge 03, você deverá:
+
+0 - A aplicação a ser utilizada é a ServeRest, este challenge é uma continuidade dos exercícios anteriores!
+
+1 - Organizar todo seu planejamento de testes do Challenge anterior, aplicando as melhorias solicitadas nos feedbacks dos instrutores, e também aplicando o uso do QALity para execução de testes no Jira.
+
+2 - Realizar melhorias em relação à estratégia de testes: Todo seu planejamento inicial fez sentido? Como será a rodada de execução de testes no Challenge atual?
+
+3 - Realizar um refinamento dos testes candidatos à automação.
+
+4 - Criar os testes automatizados após as sessões de testes manuais para poder acelerar a execução dos testes, utilizando Robot Framework.
+
+5 - Subir diariamente toda documentação atualizada no repositório Git, preferencialmente incluindo todo código de testes automatizados e toda alteração relevante no plano de testes.
+
+6 - Tarefa extra: Subir o ServeRest em uma máquina EC2 e utilizar ela durante a evolução do challenge. Subir além do ServeRest, uma outra instância EC2 para baixar o projeto do Robot Framework gerado e executar os testes a partir desta instância (uma máquina EC2 irá executar os testes, e a outra irá rodar a aplicação). É uma atividade extra, não é necessário fazer se apresentar dificuldades.
+
+A apresentação:
+
+Na apresentação, você deverá passar brevemente pelo planejamento de testes, seguido dos cenários de teste mapeados e executados no QAlity, deverá também apresentar a cobertura de testes e resultados, e por fim, o código de testes automatizados e o que foi atingido através da implementação dos testes automatizados. Apresentações poderão durar no máximo 4 minutos.
+
+Vocês serão avaliados em relação à aplicação da prática baseado na teoria de testes, melhores práticas aplicadas no planejamento, BUGS reportados, utilização do QAlity para geração da validação em relação à execução de testes, e código dos testes automatizados (documentação, frequência de commits, utilização de mais de uma branch, e boas práticas aplicadas na organização e validações nos testes).
+
