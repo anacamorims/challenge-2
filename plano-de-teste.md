@@ -38,7 +38,7 @@ Resumo da análise dos requisitos e riscos técnicos:
 - Teste de Robustez  
 
 ## 6. Mapa Mental da Aplicação
-`ServeRest_mindmap.png`
+![mapa mental](assets/mapa-mental.png)
 
 ## 7. Cenários de Teste Planejados
 
