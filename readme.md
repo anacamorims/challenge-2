@@ -56,3 +56,6 @@ Gerenciamento dos Tests Cases mapeado no plugin QAlity Plus do Jira
 
 ### Overview
 ![JiraQalityOverview](assets/overview-jira-qality.png)
+
+
+Projeto desenvolvido como Challenge para o estágio em QA da Compass UOL.
