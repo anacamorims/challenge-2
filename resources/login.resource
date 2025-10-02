@@ -43,7 +43,7 @@ Fazer login com campos vazios
     ...    alias=ServeRest
     ...    url=/login
     ...    json=${body}
-    ...    expected_status=400
+    ...    expected_status=401
     Log To Console    ${resposta.json()}
 
 Fazer login com formato de email inválido
