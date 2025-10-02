@@ -6,6 +6,7 @@ Resource    ../resources/usuarios.resource
 
 Cenario 01: CT-09 Cadastrar produto
     Criar sessão na ServeRest
+    Fazer login e obter token
     Cadastrar produto válido
 
 Cenario 02: CT-15 Cadastrar produto com preço negativo
