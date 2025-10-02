@@ -63,7 +63,7 @@ Resumo da análise dos requisitos e riscos técnicos:
 | CT-17 | Produtos | Excluir produto presente em carrinho    | DELETE `/produtos/1` (produto já em carrinho)                                                               | Retorno 400, mensagem de erro → estoque deve ser ajustado corretamente             | Integração / Negativo  |
 | CT-18 | Usuários | Cadastrar usuário com e-mail hotmail/gmail | `{ "email": "ana@hotmail.com" }`                                                                            | Retorno 400, mensagem: "email deve ter um domínio diferente de hotmail ou gmail"   | Funcional / Negativo   |
 | CT-19 | Usuários | Cadastrar usuário com senha < 5 chars   | `{ "nome": "Joao", "email": "teste@hotmail.com", "password": "1234", "administrador": "true" }`              | Retorno 400, mensagem: "senha deve conter mais de 5 caracteres"                    | Funcional / Negativo   |
-| CT-20 | Usuários | Cadastrar usuário com senha > 10 chars  | `{ "nome": "Joao", "email": "teste@hotmail.com", "password": "1234567890", "administrador": "true" }`        | Retorno 400, mensagem: "senha deve conter entre 5 e 10 caracteres"                 | Funcional / Negativo   |
+| CT-20 | Usuários | Cadastrar usuário com senha > 10 chars  | `{ "nome": "Joao", "email": "teste@hotmail.com", "password": "12345678900", "administrador": "true" }`        | Retorno 400, mensagem: "senha deve conter entre 5 e 10 caracteres"                 | Funcional / Negativo   |
 
 ## 8. Priorização da Execução dos Cenários de Teste
 
