@@ -43,7 +43,7 @@ Este plano de testes descreve a abordagem e execução para validar a release **
 - Teste de Borda   
 
 ## 6. Mapa Mental da Aplicação
-![mapa mental](assets/ServeRest_mindmap.png)
+![mapa mental](../assets/ServeRest_mindmap.png)
 
 ## 7. Cenários de Teste Planejados
 
